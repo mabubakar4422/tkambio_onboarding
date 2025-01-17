@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-ir#*n#c9xfpf0ma*5n!^%+5#^=g4xmdiqcsveljvfi8cev6p3&
 DEBUG = True
 
 SECRET_KEY=os.environ['SECRET']
-ALLOWED_HOSTS = [os.environ['WEBSITE_HOSTNAME']]
+ALLOWED_HOSTS = ['https://tkambio-onboarding-gyh2b5dgcfdsdadw.eastus-01.azurewebsites.net']
 
 
 # Application definition
